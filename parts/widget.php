@@ -25,7 +25,7 @@ class Bigup_TOC_Widget extends WP_Widget {
              'classname' => 'bigup_toc_widget',
              'description' => 'Add an self-generating table of contents.'
          );
-         parent::__construct( 'bigup_toc_widget', 'Table Of Contents', $widget_options );
+         parent::__construct( 'bigup_toc_widget', 'Bigup Web: Table Of Contents', $widget_options );
 
      }
 
