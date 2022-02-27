@@ -1,0 +1,46 @@
+/**
+ * Bigup Web: Table of Contents - Styles
+ *
+ * These are the styles for the front end widget.
+ *
+ * @package bigup_toc
+ * @author Jefferson Real <me@jeffersonreal.com>
+ * @copyright Copyright (c) 2021, Jefferson Real
+ * @license GPL2+
+ * @link https://jeffersonreal.com
+ */
+
+.bigup_toc_widget {
+    position: sticky;
+    top: 1em;
+}
+    .bigup_toc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+        .bigup_toc_list {
+            padding-left: 0;
+            list-style: none;
+        }
+        @media (min-width: 48em) { .bigup_toc_list { font-size: 65%;
+        }}
+            .bigup_toc_listItem {
+                margin: 0.8em 0;
+                padding: 0 0.1em;
+            }
+                .bigup_toc_link {
+                    display: block;
+                    border-radius: 0.3em;
+                    background: var(--hb_lightGrey);
+                    padding: 0 0.3em;
+                    width: 100%;
+                    color: var(--hb_black);
+                    text-decoration: none;
+                }
+                    .bigup_toc_link:hover {
+                        cursor: pointer;
+                        background: var(--hb_green);
+                        color: var(--hb_white);
+                    }
