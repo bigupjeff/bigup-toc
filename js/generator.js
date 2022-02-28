@@ -14,7 +14,7 @@
 ;(function($) {
     $(document).ready(function(){
         var $bigup_toc = $(".bigup_toc");
-        var $content = $(".base");
+        var $content = $(".hentry");
         var stopAt = $bigup_toc.data("stopat");
         var hs = [];
         switch(stopAt){
