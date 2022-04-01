@@ -1,19 +1,19 @@
 <?php
 /**
  * Plugin Name: Bigup Web: Table of Contents
- * Plugin URI: https://jeffersonreal.com
+ * Plugin URI: https://jeffersonreal.uk
  * Description: Dynamically build a table of contents from article headings.
  * Version: 0.13
  * Author: Jefferson Real
- * Author URI: https://jeffersonreal.com
+ * Author URI: https://jeffersonreal.uk
  * License: GPL2
  *
  * @package bigup_toc
  * @version 0.13
- * @author Jefferson Real <me@jeffersonreal.com>
+ * @author Jefferson Real <me@jeffersonreal.uk>
  * @copyright Copyright (c) 2021, Jefferson Real
  * @license GPL2+
- * @link https://jeffersonreal.com
+ * @link https://jeffersonreal.uk
  */
 
 
